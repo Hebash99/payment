@@ -8,7 +8,7 @@ import 'package:flutter_application_2/main.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   Stripe.publishableKey =
-      'pk_test_51L1bhoIE8O8WnGWKdbrNDV3sTI3gpvY415bQSghxHEbZHtIztZq7lfR7bV5pHUcAhQ6keGfJLde6Q3ejddMxxnSj00cyreGB9A';
+      'enter publish key';
   runApp(const MyApp());
 }
 
