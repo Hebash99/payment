@@ -63,7 +63,7 @@ class PaymentController extends GetxController {
           body: body,
           headers: {
             'Authorization':
-                'Bearer sk_test_51L1bhoIE8O8WnGWKujovXB3jfrPgAzbpaz7HxRZQKVD8N8CZRJOUQzq8NJo3UNVTnzDwegLfVyrzh0xWFUPUbsLW00KuhbHNgL',
+                'Bearer secret key',
             'Content-Type': 'application/x-www-form-urlencoded'
           });
       return jsonDecode(response.body);
